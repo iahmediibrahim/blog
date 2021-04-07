@@ -19,7 +19,10 @@
         box-sizing: border-box;
     }
 
-    .image-title, .image-date, .tags-container, div {
+    .image-title,
+    .image-date,
+    .tags-container,
+    div {
         float: left;
         width: 100%;
         z-index: 10;
@@ -36,6 +39,18 @@
     .image-date {
         font-size: 18px;
         color: $text-light;
+    }
+    .tags-container {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        margin-left: -1px;
+        color: #fff;
+        .tag {
+            border-radius: 5px;
+            padding: 4px 8px;
+            margin-right: 5px;
+        }
     }
 }
 
